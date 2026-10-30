@@ -1,10 +1,10 @@
 package jawaban3;
 
 public class Menu {
-    String kodeMenu;
-    String namaMenu;
-    double harga;
-    String kategori;
+    private String kodeMenu;
+    private String namaMenu;
+    private double harga;
+    private String kategori;
 
     public Menu() {
         this("M00", "Menu Umum", 0, "Umum");
